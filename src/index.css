@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap");
+
+:root {
+  --baseColor: #fdedb0;
+  --whiteColor: #ffffff;
+  --whiteColorDim: #ffffff55;
+  --blackColor: #000000;
+  --blackColorDim: #00000022;
+  --slateColor: #292929;
+  --slateColorDim: #29292999;
+  --shadowColor: #dddddd;
+  --borderColor: #e0e0e0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.spacerSmall {
+  height: 5px;
+}
+
+.spacer {
+  height: 10px;
+}
+
+.spacerMedium {
+  height: 20px;
+}
+
+.spacerLarge {
+  height: 40px;
+}

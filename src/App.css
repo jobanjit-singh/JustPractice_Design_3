@@ -1,0 +1,79 @@
+.baseContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--slateColor);
+}
+
+.overlayContainer {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-color: var(--blackColorDim);
+}
+
+.contentBaseContainer {
+  position: absolute;
+  width: 50%;
+  height: 80%;
+  gap: 20px;
+  display: flex;
+}
+
+.loginFormBaseContainer {
+  flex: 1;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginFormContainer {
+  flex: 2;
+  background-color: var(--whiteColorDim);
+  border-radius: 30px;
+  backdrop-filter: blur(20px);
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.loginFormHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.loginFormHeaderContainer #headerName {
+  color: var(--slateColorDim);
+}
+
+.loginFormTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loginFormTitleContainer #loginFormTitle {
+  font-size: 30px;
+}
+
+.loginFormTitleContainer #loginFormTitleButtonContainer {
+}
+
+.discoverBaseContainer {
+  flex: 1;
+  background-color: rgb(222, 184, 135);
+}
+
+.detailsBaseContainer {
+  flex: 1;
+  background-color: rgb(65, 105, 225);
+}
