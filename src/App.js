@@ -1,10 +1,16 @@
+import { useEffect, useState } from "react";
 import "./App.css";
 import ASSETS from "./assets";
 import CustomButton from "./components/CustomButton/CustomButton";
+import CustomInput from "./components/CustomInput/CustomInput";
 import COLORS from "./config/colors";
 import { FaFacebook } from "react-icons/fa";
+import { MdAlternateEmail } from "react-icons/md";
 
 function App() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
   return (
     <div
       className="baseContainer"
@@ -30,6 +36,22 @@ function App() {
                   onClick={() => alert("Facebook Button")}
                 />
               </div>
+            </div>
+            <div className="spacerMedium" />
+            <div className="loginFormInputContainer">
+              <CustomInput
+                Icon={MdAlternateEmail}
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder={"e-mail address"}
+              />
+              <CustomInput
+                isSecureEntry={true}
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                placeholder={"password"}
+                onForgetClick={() => alert("Forget Password Click")}
+              />
             </div>
           </div>
           <div className="discoverBaseContainer"></div>

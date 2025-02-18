@@ -68,6 +68,12 @@
 .loginFormTitleContainer #loginFormTitleButtonContainer {
 }
 
+.loginFormInputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .discoverBaseContainer {
   flex: 1;
   background-color: rgb(222, 184, 135);

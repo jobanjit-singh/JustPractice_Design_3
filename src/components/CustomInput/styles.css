@@ -1,0 +1,43 @@
+.customInputBaseContainer {
+  background-color: var(--whiteColorDim);
+  padding: 6px;
+  border-radius: 25px;
+  display: flex;
+  gap: 10px;
+}
+
+.customInputIconContainer {
+  background-color: var(--whiteColor);
+  padding: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customInputContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.customInputContainer input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.customInputContainer input::placeholder {
+  color: var(--slateColor);
+  font-weight: 500;
+}
+
+.customInputContainer input:focus {
+  outline: none;
+}
+
+.customInputForgetContainer {
+  display: flex;
+  align-items: center;
+}
