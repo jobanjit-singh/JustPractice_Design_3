@@ -6,6 +6,8 @@ import CustomInput from "./components/CustomInput/CustomInput";
 import COLORS from "./config/colors";
 import { FaFacebook } from "react-icons/fa";
 import { MdAlternateEmail } from "react-icons/md";
+import CustomLoginButton from "./components/CustomLoginButton/CustomLoginButton";
+import { FaChevronRight } from "react-icons/fa6";
 
 function App() {
   const [email, setEmail] = useState("");
@@ -52,6 +54,23 @@ function App() {
                 placeholder={"password"}
                 onForgetClick={() => alert("Forget Password Click")}
               />
+            </div>
+            <div className="spacerLarge" />
+            <div className="loginFormButtonContainer">
+              <div className="loginFormButtonTermContainer">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dignissimos ipsa perspiciatis at aspernatur consequuntur
+                  cumque.
+                </p>
+              </div>
+              <div className="loginFormButtonContentContainer">
+                <CustomLoginButton
+                  backgroundColor={COLORS.slateColor}
+                  Icon={FaChevronRight}
+                  iconColor={COLORS.whiteColor}
+                />
+              </div>
             </div>
           </div>
           <div className="discoverBaseContainer"></div>

@@ -74,6 +74,27 @@
   gap: 10px;
 }
 
+.loginFormButtonContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.loginFormButtonTermContainer {
+  flex: 1;
+}
+
+.loginFormButtonTermContainer p {
+  font-size: 12px;
+  color: var(--slateColorDim);
+}
+
+.loginFormButtonContentContainer {
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 .discoverBaseContainer {
   flex: 1;
   background-color: rgb(222, 184, 135);

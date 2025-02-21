@@ -1,0 +1,44 @@
+.customLoginButtonBaseContainer {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customLoginButtonBottomShapeContainer {
+  width: 100%;
+  height: 60%;
+  border-radius: 50px;
+}
+
+.customLoginButtonTopShapeContainer {
+  position: absolute;
+  right: 0%;
+  width: 70%;
+  height: 100%;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customLoginButtonMiddleShapeContainer {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.customLoginButtonMiddleShapeContainer .middleShapeBox {
+  width: 80%;
+  height: 95%;
+  background-color: green;
+}
