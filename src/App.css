@@ -95,8 +95,17 @@
   justify-content: flex-end;
 }
 
+.loginFormMessageContainer {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.loginFormMessageContainer p {
+  text-align: center;
+}
+
 .discoverBaseContainer {
-  flex: 1;
+  flex: 1.5;
   background-color: rgb(222, 184, 135);
 }
 

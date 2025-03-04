@@ -69,8 +69,13 @@ function App() {
                   backgroundColor={COLORS.slateColor}
                   Icon={FaChevronRight}
                   iconColor={COLORS.whiteColor}
+                  onClick={() => alert("Custom Login Button")}
                 />
               </div>
+            </div>
+            <div className="spacerLarge" />
+            <div className="loginFormMessageContainer">
+              <p>Please Consume Responsibly!</p>
             </div>
           </div>
           <div className="discoverBaseContainer"></div>
